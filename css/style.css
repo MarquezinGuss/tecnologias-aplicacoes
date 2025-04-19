@@ -62,7 +62,7 @@ section#conteudo {
     margin-bottom: 30px;
 }
 
-.title__cards h2{
+.title__cards h1{
     color: #202020;
     font-size: 35px;
 }
@@ -127,7 +127,7 @@ section#conteudo {
   display: flex;
 }
 
-.ajusta__banner h2 {
+.ajusta__banner h1 {
   color: #fff;
   font-size: 45px;
 }
@@ -179,7 +179,7 @@ section#conteudo {
     flex-direction: column;
   }
   
-  .form__contato h2 {
+  .form__contato h1 {
     margin-bottom: 20px;
     text-align: center;
   }
