@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Conteudo - CSS</title>
+</head>
+
+<body>
+
+    <section id="menu-navegation">
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="javascript.html">JavaScript</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </section>
+
+
+    <section id="banner">
+        <div class="ajusta__banner banner_css">
+            <h2>Introdução ao CSS (Cascading Style Sheets)<img src="img/css.png" alt=""></h2>
+        </div>
+    </section>
+    <section id="conteudo">
+        <div class="container__conteudo">
+        
+            <h2>Introdução</h2>
+            <p>
+              No desenvolvimento de páginas e aplicações web, a apresentação visual desempenha um papel essencial na experiência do usuário. A construção de uma interface agradável, organizada e funcional é tão importante quanto a estrutura do conteúdo e a lógica do sistema. Nesse contexto, surge o CSS (Cascading Style Sheets), uma linguagem de estilo que tem como principal objetivo definir a aparência e o layout dos elementos HTML. Este trabalho apresenta uma visão geral sobre o que é CSS, sua finalidade, funcionamento e formas de aplicação, ressaltando sua importância no design moderno de interfaces digitais.
+            </p>
+        
+            <h2>O que é CSS?</h2>
+            <p>
+              O <strong>CSS</strong> (Cascading Style Sheets), em português <em>Folhas de Estilo em Cascata</em>, é uma linguagem utilizada para controlar a <strong>aparência visual</strong> de páginas web. Por meio do CSS, é possível estilizar elementos estruturados em HTML, determinando características como <em>cores, tamanhos, fontes, espaçamentos, posicionamentos, animações</em>, entre outras propriedades visuais. Seu uso contribui para a separação entre o conteúdo (estrutura) e o estilo (apresentação), tornando o desenvolvimento web mais modular, organizado e eficiente.
+            </p>
+        
+            <h2>Finalidade do CSS</h2>
+            <p>A linguagem CSS é aplicada com os seguintes propósitos principais:</p>
+            <ul>
+              <li>Definir o layout visual de elementos HTML de forma clara e objetiva;</li>
+              <li>Aplicar diferentes estilos a uma mesma página de maneira flexível e escalável;</li>
+              <li>Garantir interfaces responsivas, adaptadas a diversos dispositivos e tamanhos de tela;</li>
+              <li>Centralizar e reutilizar estilos, otimizando o tempo de desenvolvimento e manutenção;</li>
+              <li>Separar o conteúdo da apresentação, promovendo melhor organização do código.</li>
+            </ul>
+        
+            <h2>Funcionamento do CSS</h2>
+            <p>
+              O CSS atua através da definição de <strong>regras de estilo</strong>, que são compostas por dois elementos fundamentais:
+            </p>
+            <ol>
+              <li><strong>Seletor</strong>: especifica qual ou quais elementos HTML serão estilizados;</li>
+              <li><strong>Declaração</strong>: determina as propriedades e os valores de estilo que serão aplicados aos elementos selecionados.</li>
+            </ol>
+        
+            <h2>Formas de aplicação do CSS</h2>
+            <p>Existem três formas principais de incorporar o CSS a um documento HTML:</p>
+            <ul>
+              <li><strong>CSS Inline</strong>: inserido diretamente no atributo <code>style</code> do elemento HTML;</li>
+              <li><strong>CSS Interno</strong>: incluído dentro da própria página HTML, por meio da tag <code>style</code> no cabeçalho;</li>
+              <li><strong>CSS Externo</strong>: armazenado em um arquivo separado com extensão <code>.css</code> e vinculado ao HTML por meio da tag <code>link</code>.</li>
+            </ul>
+            <p>
+              A utilização de arquivos externos é considerada a prática mais recomendada, pois promove maior organização, reutilização e clareza no desenvolvimento de projetos de qualquer porte.
+            </p>
+        
+            <h2>O conceito de "cascata"</h2>
+            <p>
+              A expressão "em cascata" refere-se ao modelo de prioridade adotado pelo CSS para lidar com múltiplas regras que podem ser aplicadas a um mesmo elemento. Esse mecanismo obedece a uma hierarquia que considera:
+            </p>
+            <ul>
+              <li>A <strong>especificidade</strong> de cada seletor;</li>
+              <li>A <strong>ordem de declaração</strong> das regras no código;</li>
+              <li>O uso do modificador <code>!important</code>, que força a aplicação de determinada regra.</li>
+            </ul>
+            <p>
+              Essa hierarquia permite que o desenvolvedor tenha maior controle sobre os estilos aplicados, tornando o processo de customização mais preciso e eficiente.
+            </p>
+        
+            <h2>Conclusão</h2>
+            <p>
+              O CSS é uma ferramenta indispensável no desenvolvimento web moderno. Sua capacidade de definir a apresentação visual de páginas permite a criação de interfaces mais atraentes, acessíveis e profissionais. Ao separar o conteúdo da forma, o CSS favorece práticas de desenvolvimento mais limpas, escaláveis e sustentáveis, tornando-se uma base essencial para qualquer aplicação web. Com sua aplicação correta, é possível garantir uma experiência do usuário mais agradável, funcional e adaptada às diversas plataformas disponíveis no mercado.
+            </p>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        &copy Desenvolvido por Gustavo Marquezin
+      </footer>
+</body>
+
+</html>

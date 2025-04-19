@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+/* --------------------------------- */
+.menu {
+    background-color: #202020;
+    padding: 20px 0;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu ul li {
+    margin: 0 15px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: 0.3s, color 0.3s;
+  }
+  
+  .menu ul li a:hover {
+    color: #b2b2b2;
+  }
+/* --------------------------------- */
+section#cards {
+    height: 87vh;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#conteudo {
+    display: flex;
+    padding: 60px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title__cards {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title__cards h2{
+    color: #202020;
+    font-size: 35px;
+}
+
+.container__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+}
+.card{
+  padding: 25px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 9px 7px 19px -10px rgba(0,0,0,0.75);
+}
+/* --------------------------------- */
+.card__html{
+  background: linear-gradient(90deg,rgba(32, 32, 32, 1) 0%, rgba(140, 140, 140, 0.48) 100%), url(../img/bg_html.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card__css{
+  background: linear-gradient(90deg,rgba(32, 32, 32, 1) 0%, rgba(140, 140, 140, 0.48) 100%), url(../img/bg_css.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card__js{
+  background: linear-gradient(90deg,rgba(32, 32, 32, 1) 0%, rgba(140, 140, 140, 0.48) 100%), url(../img/bg_js.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* --------------------------------- */
+.card a{
+    color: #202020;
+    text-decoration: none;
+}
+
+.card h3 {
+  text-align: left;
+  font-size: 30px;
+  color: #fff;
+}
+
+.card p {
+  font-size: 13px;
+  text-align: left;
+  color: #fff;
+}
+
+.card:hover{
+    opacity: 0.67;
+}
+/* --------------------------------- */
+.ajusta__banner {
+  padding: 150px 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.ajusta__banner h2 {
+  color: #fff;
+  font-size: 45px;
+}
+
+.banner_html{
+  background: linear-gradient(90deg,rgba(32, 32, 32, 1) 0%, rgba(140, 140, 140, 0.48) 100%), url(../img/bg_html.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner_css{
+  background: linear-gradient(90deg,rgba(32, 32, 32, 1) 0%, rgba(140, 140, 140, 0.48) 100%), url(../img/bg_css.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner_js{
+  background: linear-gradient(90deg,rgba(32, 32, 32, 1) 0%, rgba(140, 140, 140, 0.48) 100%), url(../img/bg_js.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* --------------------------------- */
+.container__conteudo{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+
+.container__conteudo li {
+  list-style: none;
+}
+/* --------------------------------- */
+.form__wrapper {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 132px 0;
+}
+
+  .form__contato {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form__contato h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form__contato label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form__contato input,
+  .form__contato textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .form__contato button {
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .form__contato button:hover {
+    background-color: #555;
+  }
+
+
+  .rodape {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #202020;
+    color: #9c9c9c;
+  }
